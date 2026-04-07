@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: kinglast/fastapi-app:44ca811
+        image: kinglast/fastapi-app:6acaac3
         ports:
         - containerPort: 8000
