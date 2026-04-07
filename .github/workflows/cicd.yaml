@@ -6,6 +6,8 @@ on:
       - main
     paths-ignore:
       - 'k8s/deployment.yaml'
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
