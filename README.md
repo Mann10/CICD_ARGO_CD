@@ -71,6 +71,11 @@ This is a simple FastAPI application demonstrating a complete CI/CD pipeline usi
 
 If using Kind with a NodePort service, access via the node IP and port 30007.
 
+### Argo UI
+You can use same portforward for argo service.
+<img width="1795" height="730" alt="image" src="https://github.com/user-attachments/assets/55369f83-17d2-4ca9-88d6-3dc70d7de85d" />
+
+
 ## CI/CD Pipeline
 
 The GitHub Actions workflow automates the following on push to main branch:
